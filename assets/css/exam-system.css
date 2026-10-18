@@ -1,0 +1,104 @@
+body {
+    background: #f4f6fb;
+}
+
+.exam-card {
+    max-width: 1200px;
+    border: 0;
+    border-radius: 1rem;
+}
+
+.timer-box {
+    background: #111827;
+    color: #fff;
+    border-radius: .6rem;
+    padding: .4rem .8rem;
+    font-size: .9rem;
+}
+
+.question-text {
+    font-size: 1.02rem;
+    font-weight: 500;
+}
+
+.option-item {
+    border: 1px solid #dbe2ef;
+    border-radius: .55rem;
+    padding: .65rem .75rem;
+    cursor: pointer;
+}
+
+.option-item:hover {
+    background: #f8f9ff;
+}
+
+.palette-grid {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: .5rem;
+}
+
+.palette-btn {
+    border: 0;
+    border-radius: .5rem;
+    color: #fff;
+    font-size: .82rem;
+    font-weight: 600;
+    min-height: 34px;
+}
+
+.palette-btn.current {
+    outline: 2px solid #111827;
+}
+
+.legend-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: .35rem;
+}
+
+.legend-dot {
+    display: inline-block;
+    width: .8rem;
+    height: .8rem;
+    border-radius: 50%;
+    margin-right: .4rem;
+    vertical-align: middle;
+}
+
+.not-visited {
+    background: #9ca3af;
+}
+
+.not-answered {
+    background: #ef4444;
+}
+
+.answered {
+    background: #22c55e;
+}
+
+.marked {
+    background: #f59e0b;
+}
+
+.answered-review {
+    background: #6366f1;
+}
+
+.summary-box {
+    background: #f3f4f6;
+    border-radius: .7rem;
+    padding: .8rem;
+    text-align: center;
+}
+
+.summary-box span {
+    display: block;
+    color: #6b7280;
+    font-size: .8rem;
+}
+
+.summary-box strong {
+    font-size: 1.1rem;
+}
